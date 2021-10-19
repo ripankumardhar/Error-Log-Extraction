@@ -25,10 +25,11 @@ The program consists code to monitor errors from a log file in given format:
 * 2019-4-1 13:34:03 [447] User5 clicks submit
 * 2019-4-1 13:34:05 [447] ERROR: Page not available
 
-When errors occur, the log message will start with "ERROR:". 
-The program scans the log file and generates a report in console with all errors. 
-The order of the errors should follow the same order as the log file. 
-Different sessions are seperated using "-----" as the separator between. 
+## Functionality Covered :
+- When errors occur, the log message will start with "ERROR:". 
+- The program scans the log file and generates a report in console with all errors. 
+- The order of the errors should follow the same order as the log file. 
+- Different sessions are seperated using "-----" as the separator between. 
 
 
 ## Tests Covered : 
