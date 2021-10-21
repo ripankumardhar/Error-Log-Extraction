@@ -42,7 +42,7 @@ The program consists code to monitor errors from a log file in given format:
 ```python
 
 #Read Input Log File
-infile = "C:/Readyapi Projects/loginput.txt"
+infile = ROOT_DIR+"/loginput.txt"
 
 #Declare Blank Lists to hold session ID and error phases
 important = []
