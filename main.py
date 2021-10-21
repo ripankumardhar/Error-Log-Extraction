@@ -1,7 +1,8 @@
-
+import os
+ROOT_DIR = os.path.abspath(os.curdir)
 
 #Read Input Log File
-infile = "/home/ripan/Desktop/logfiles/pythonProject/loginput.txt"
+infile = ROOT_DIR+"/loginput.txt"
 
 #Declare Blank Lists to hold session ID and error phases
 important = []
